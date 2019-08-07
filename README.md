@@ -1,6 +1,34 @@
 # Simple Flask/React App
 This sets up full-stack application using flask & react
 
+## Description
+This will serve the web-app and server off of the same host and port. 
+The project after checking out should have the structure below. 
+```
+$ tree
+.
+├── README.md
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+├── run.py
+├── simple_app
+│   ├── __init__.py
+│   └── __pycache__
+│       └── __init__.cpython-37.pyc
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    └── serviceWorker.js
+```
+
 ## Installation
 ```
 $ npm install           # install web-app dependencies
